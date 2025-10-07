@@ -6,10 +6,11 @@
   "scripts": {
     "start": "node index.js"
   },
-  "dependencies": {
-    "express": "^4.17.1",
-    "@line/bot-sdk": "^7.0.0"
-  },
+ "dependencies": {
+  "express": "^4.17.1",
+  "@line/bot-sdk": "^7.0.0",
+  "openai": "^4.0.0"
+},
   "engines": {
     "node": "18.x"
   }
