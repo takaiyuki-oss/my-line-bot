@@ -4,8 +4,8 @@ const line = require('@line/bot-sdk');
 
 // LINE Botの設定
 const config = {
-  channelAccessToken: 'ここにチャネルアクセストークンを入力',
-  channelSecret: 'ここにチャネルシークレットを入力',
+  channelAccessToken: process.env.CHANNEL_ACCESS_TOKEN,
+  channelSecret: process.env.CHANNEL_SECRET,
 };
 
 // サーバーの準備
